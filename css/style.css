@@ -1,0 +1,30 @@
+html, body {
+    color: #ffffffcc;
+    background: #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #ff9900, #ff0000);
+    border-radius: 25px;
+  }
+
+  .main {
+    flex: 5;
+    padding: 20px; /* Задайте бажані відступи */
+  }
+
+.video {
+    margin-right: 15vw;
+    margin-top: 3vw;
+    width: 560px;
+    height: 315px;
+}
+
+.main_pngwing {
+    margin-top: 28vw;
+    width: 150px;
+    height: 150px;
+}
